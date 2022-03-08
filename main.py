@@ -5,9 +5,11 @@ two_digit_number = input("Type a two digit number: ")
 ####################################
 #Write your code below this line 👇
 
+first_number = two_digit_number[0]
+second_number = two_digit_number[1]
 
-
-
+add_numbers = int(first_number) + int(second_number)
+print(add_numbers)
 
 
 
